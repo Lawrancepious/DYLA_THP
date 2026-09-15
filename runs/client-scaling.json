@@ -1,0 +1,9 @@
+[
+  {
+    "procs": 16,
+    "total_requests": 8000,
+    "wall_s": 9.77,
+    "aggregate_rps": 818.5,
+    "sum_of_worker_rps": 1659.8
+  }
+]

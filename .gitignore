@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pgdata/
+*.log
+.env
+
+# Raw per-attempt journals. These are intermediate data: multi-megabyte, and
+# fully regenerable by re-running the experiment that produced them. The
+# derived evidence -- report.txt, summary.json, status.json, outage-trace.txt --
+# is committed, and that is what every claim in DECISIONS.md cites.
+runs/**/journal-shard*.jsonl
+runs/_fanout_worker.py

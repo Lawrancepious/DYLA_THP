@@ -1,0 +1,568 @@
+{
+  "sold": 112,
+  "capacity": 100,
+  "epoch": 17,
+  "mode": "naive-seq",
+  "tickets": [
+    {
+      "ticket_no": 1,
+      "user_id": "u1",
+      "request_id": "s1-r4"
+    },
+    {
+      "ticket_no": 2,
+      "user_id": "u1156",
+      "request_id": "s1-r6"
+    },
+    {
+      "ticket_no": 3,
+      "user_id": "u1263",
+      "request_id": "s1-r9"
+    },
+    {
+      "ticket_no": 4,
+      "user_id": "u232",
+      "request_id": "s1-r10"
+    },
+    {
+      "ticket_no": 5,
+      "user_id": "u1085",
+      "request_id": "s1-r11"
+    },
+    {
+      "ticket_no": 6,
+      "user_id": "u610",
+      "request_id": "s1-r5"
+    },
+    {
+      "ticket_no": 7,
+      "user_id": "u1155",
+      "request_id": "s1-r13"
+    },
+    {
+      "ticket_no": 8,
+      "user_id": "u361",
+      "request_id": "s1-r7"
+    },
+    {
+      "ticket_no": 9,
+      "user_id": "u444",
+      "request_id": "s1-r8"
+    },
+    {
+      "ticket_no": 10,
+      "user_id": "u609",
+      "request_id": "s1-r12"
+    },
+    {
+      "ticket_no": 11,
+      "user_id": "u1955",
+      "request_id": "s1-r18"
+    },
+    {
+      "ticket_no": 12,
+      "user_id": "u1769",
+      "request_id": "s1-r25"
+    },
+    {
+      "ticket_no": 13,
+      "user_id": "u1999",
+      "request_id": "s1-r24"
+    },
+    {
+      "ticket_no": 14,
+      "user_id": "u1340",
+      "request_id": "s1-r14"
+    },
+    {
+      "ticket_no": 15,
+      "user_id": "u803",
+      "request_id": "s1-r16"
+    },
+    {
+      "ticket_no": 16,
+      "user_id": "u1400",
+      "request_id": "s1-r17"
+    },
+    {
+      "ticket_no": 17,
+      "user_id": "u1663",
+      "request_id": "s1-r19"
+    },
+    {
+      "ticket_no": 18,
+      "user_id": "u868",
+      "request_id": "s1-r15"
+    },
+    {
+      "ticket_no": 19,
+      "user_id": "u328",
+      "request_id": "s1-r22"
+    },
+    {
+      "ticket_no": 20,
+      "user_id": "u1740",
+      "request_id": "s2-r25"
+    },
+    {
+      "ticket_no": 21,
+      "user_id": "u143",
+      "request_id": "s2-r29"
+    },
+    {
+      "ticket_no": 22,
+      "user_id": "u1979",
+      "request_id": "s1-r37"
+    },
+    {
+      "ticket_no": 23,
+      "user_id": "u761",
+      "request_id": "s1-r38"
+    },
+    {
+      "ticket_no": 24,
+      "user_id": "u1114",
+      "request_id": "s1-r50"
+    },
+    {
+      "ticket_no": 25,
+      "user_id": "u946",
+      "request_id": "s2-r30"
+    },
+    {
+      "ticket_no": 26,
+      "user_id": "u1656",
+      "request_id": "s1-r41"
+    },
+    {
+      "ticket_no": 27,
+      "user_id": "u325",
+      "request_id": "s1-r40"
+    },
+    {
+      "ticket_no": 28,
+      "user_id": "u1307",
+      "request_id": "s1-r20"
+    },
+    {
+      "ticket_no": 29,
+      "user_id": "u583",
+      "request_id": "s1-r31"
+    },
+    {
+      "ticket_no": 30,
+      "user_id": "u1020",
+      "request_id": "s1-r23"
+    },
+    {
+      "ticket_no": 31,
+      "user_id": "u1701",
+      "request_id": "s1-r29"
+    },
+    {
+      "ticket_no": 32,
+      "user_id": "u1909",
+      "request_id": "s1-r44"
+    },
+    {
+      "ticket_no": 33,
+      "user_id": "u907",
+      "request_id": "s2-r31"
+    },
+    {
+      "ticket_no": 34,
+      "user_id": "u1799",
+      "request_id": "s1-r27"
+    },
+    {
+      "ticket_no": 35,
+      "user_id": "u550",
+      "request_id": "s1-r28"
+    },
+    {
+      "ticket_no": 36,
+      "user_id": "u1145",
+      "request_id": "s1-r52"
+    },
+    {
+      "ticket_no": 37,
+      "user_id": "u88",
+      "request_id": "s1-r53"
+    },
+    {
+      "ticket_no": 38,
+      "user_id": "u1061",
+      "request_id": "s1-r21"
+    },
+    {
+      "ticket_no": 39,
+      "user_id": "u1851",
+      "request_id": "s2-r35"
+    },
+    {
+      "ticket_no": 40,
+      "user_id": "u1252",
+      "request_id": "s1-r48"
+    },
+    {
+      "ticket_no": 41,
+      "user_id": "u1929",
+      "request_id": "s1-r0"
+    },
+    {
+      "ticket_no": 42,
+      "user_id": "u278",
+      "request_id": "s1-r49"
+    },
+    {
+      "ticket_no": 43,
+      "user_id": "u1345",
+      "request_id": "s1-r54"
+    },
+    {
+      "ticket_no": 44,
+      "user_id": "u455",
+      "request_id": "s2-r37"
+    },
+    {
+      "ticket_no": 45,
+      "user_id": "u643",
+      "request_id": "s1-r35"
+    },
+    {
+      "ticket_no": 46,
+      "user_id": "u1679",
+      "request_id": "s1-r26"
+    },
+    {
+      "ticket_no": 47,
+      "user_id": "u1757",
+      "request_id": "s1-r62"
+    },
+    {
+      "ticket_no": 48,
+      "user_id": "u413",
+      "request_id": "s1-r65"
+    },
+    {
+      "ticket_no": 49,
+      "user_id": "u194",
+      "request_id": "s1-r32"
+    },
+    {
+      "ticket_no": 50,
+      "user_id": "u811",
+      "request_id": "s1-r30"
+    },
+    {
+      "ticket_no": 51,
+      "user_id": "u836",
+      "request_id": "s1-r34"
+    },
+    {
+      "ticket_no": 52,
+      "user_id": "u1461",
+      "request_id": "s1-r33"
+    },
+    {
+      "ticket_no": 53,
+      "user_id": "u532",
+      "request_id": "s1-r68"
+    },
+    {
+      "ticket_no": 54,
+      "user_id": "u1241",
+      "request_id": "s2-r2"
+    },
+    {
+      "ticket_no": 55,
+      "user_id": "u76",
+      "request_id": "s2-r45"
+    },
+    {
+      "ticket_no": 56,
+      "user_id": "u725",
+      "request_id": "s2-r3"
+    },
+    {
+      "ticket_no": 57,
+      "user_id": "u1753",
+      "request_id": "s2-r50"
+    },
+    {
+      "ticket_no": 58,
+      "user_id": "u1023",
+      "request_id": "s2-r6"
+    },
+    {
+      "ticket_no": 59,
+      "user_id": "u788",
+      "request_id": "s2-r46"
+    },
+    {
+      "ticket_no": 60,
+      "user_id": "u1008",
+      "request_id": "s2-r9"
+    },
+    {
+      "ticket_no": 61,
+      "user_id": "u354",
+      "request_id": "s2-r47"
+    },
+    {
+      "ticket_no": 62,
+      "user_id": "u462",
+      "request_id": "s2-r48"
+    },
+    {
+      "ticket_no": 63,
+      "user_id": "u468",
+      "request_id": "s2-r49"
+    },
+    {
+      "ticket_no": 64,
+      "user_id": "u1547",
+      "request_id": "s2-r12"
+    },
+    {
+      "ticket_no": 65,
+      "user_id": "u348",
+      "request_id": "s2-r14"
+    },
+    {
+      "ticket_no": 66,
+      "user_id": "u157",
+      "request_id": "s2-r13"
+    },
+    {
+      "ticket_no": 67,
+      "user_id": "u1036",
+      "request_id": "s2-r15"
+    },
+    {
+      "ticket_no": 68,
+      "user_id": "u1367",
+      "request_id": "s1-r69"
+    },
+    {
+      "ticket_no": 69,
+      "user_id": "u392",
+      "request_id": "s4-r0"
+    },
+    {
+      "ticket_no": 70,
+      "user_id": "u419",
+      "request_id": "s2-r52"
+    },
+    {
+      "ticket_no": 71,
+      "user_id": "u1402",
+      "request_id": "s1-r72"
+    },
+    {
+      "ticket_no": 72,
+      "user_id": "u1123",
+      "request_id": "s1-r73"
+    },
+    {
+      "ticket_no": 73,
+      "user_id": "u235",
+      "request_id": "s2-r19"
+    },
+    {
+      "ticket_no": 74,
+      "user_id": "u103",
+      "request_id": "s4-r1"
+    },
+    {
+      "ticket_no": 75,
+      "user_id": "u1285",
+      "request_id": "s4-r3"
+    },
+    {
+      "ticket_no": 76,
+      "user_id": "u1525",
+      "request_id": "s2-r24"
+    },
+    {
+      "ticket_no": 77,
+      "user_id": "u1585",
+      "request_id": "s2-r26"
+    },
+    {
+      "ticket_no": 78,
+      "user_id": "u1643",
+      "request_id": "s4-r5"
+    },
+    {
+      "ticket_no": 79,
+      "user_id": "u440",
+      "request_id": "s1-r83"
+    },
+    {
+      "ticket_no": 80,
+      "user_id": "u275",
+      "request_id": "s1-r84"
+    },
+    {
+      "ticket_no": 81,
+      "user_id": "u1739",
+      "request_id": "s4-r9"
+    },
+    {
+      "ticket_no": 82,
+      "user_id": "u808",
+      "request_id": "s1-r88"
+    },
+    {
+      "ticket_no": 83,
+      "user_id": "u842",
+      "request_id": "s1-r42"
+    },
+    {
+      "ticket_no": 84,
+      "user_id": "u1996",
+      "request_id": "s1-r89"
+    },
+    {
+      "ticket_no": 85,
+      "user_id": "u1791",
+      "request_id": "s1-r90"
+    },
+    {
+      "ticket_no": 86,
+      "user_id": "u782",
+      "request_id": "s1-r91"
+    },
+    {
+      "ticket_no": 87,
+      "user_id": "u50",
+      "request_id": "s1-r51"
+    },
+    {
+      "ticket_no": 88,
+      "user_id": "u1759",
+      "request_id": "s2-r33"
+    },
+    {
+      "ticket_no": 89,
+      "user_id": "u935",
+      "request_id": "s4-r11"
+    },
+    {
+      "ticket_no": 90,
+      "user_id": "u68",
+      "request_id": "s1-r1"
+    },
+    {
+      "ticket_no": 91,
+      "user_id": "u251",
+      "request_id": "s4-r12"
+    },
+    {
+      "ticket_no": 92,
+      "user_id": "u1161",
+      "request_id": "s1-r56"
+    },
+    {
+      "ticket_no": 93,
+      "user_id": "u488",
+      "request_id": "s4-r13"
+    },
+    {
+      "ticket_no": 94,
+      "user_id": "u920",
+      "request_id": "s1-r92"
+    },
+    {
+      "ticket_no": 95,
+      "user_id": "u1023",
+      "request_id": "s1-r59"
+    },
+    {
+      "ticket_no": 96,
+      "user_id": "u1705",
+      "request_id": "s4-r15"
+    },
+    {
+      "ticket_no": 97,
+      "user_id": "u685",
+      "request_id": "s1-r2"
+    },
+    {
+      "ticket_no": 98,
+      "user_id": "u1515",
+      "request_id": "s1-r3"
+    },
+    {
+      "ticket_no": 99,
+      "user_id": "u717",
+      "request_id": "s2-r36"
+    },
+    {
+      "ticket_no": 100,
+      "user_id": "u1190",
+      "request_id": "s2-r38"
+    },
+    {
+      "ticket_no": 101,
+      "user_id": "u493",
+      "request_id": "s2-r56"
+    },
+    {
+      "ticket_no": 102,
+      "user_id": "u1558",
+      "request_id": "s2-r57"
+    },
+    {
+      "ticket_no": 103,
+      "user_id": "u866",
+      "request_id": "s2-r58"
+    },
+    {
+      "ticket_no": 104,
+      "user_id": "u1309",
+      "request_id": "s2-r59"
+    },
+    {
+      "ticket_no": 105,
+      "user_id": "u55",
+      "request_id": "s2-r60"
+    },
+    {
+      "ticket_no": 106,
+      "user_id": "u907",
+      "request_id": "s2-r61"
+    },
+    {
+      "ticket_no": 107,
+      "user_id": "u651",
+      "request_id": "s4-r19"
+    },
+    {
+      "ticket_no": 108,
+      "user_id": "u1160",
+      "request_id": "s1-r63"
+    },
+    {
+      "ticket_no": 109,
+      "user_id": "u1084",
+      "request_id": "s2-r1"
+    },
+    {
+      "ticket_no": 110,
+      "user_id": "u895",
+      "request_id": "s1-r67"
+    },
+    {
+      "ticket_no": 111,
+      "user_id": "u1781",
+      "request_id": "s4-r21"
+    },
+    {
+      "ticket_no": 112,
+      "user_id": "u1812",
+      "request_id": "s2-r42"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+
+=== safe-passes ===============================================
+6000 requests in 13.966s   429.6 req/s
+latency ms   p50   736.84   p95  2221.91   p99  3623.41   max  6252.34
+outcomes     ok=124  sold_out=5876
+server       pool 32/32  pool-wait p99 3124.012ms  db p99 103.345ms
+
+[PASS]  I1 Never oversell
+          100 sold against capacity 100
+[PASS]  I2 Never issue a ticket number twice
+          0 duplicated in /status; 0 handed to multiple request ids over the wire
+[PASS]  I3 Duplicate request id buys once
+          22 request ids were replayed and answered more than once; 0 hold multiple tickets in /status; 0 were told different numbers on different attempts
+[PASS]  I4 /status count matches issued tickets
+          /status reports sold=100, list contains 100
+[PASS] *I5 No phantom tickets
+          0 tickets held by request ids never sent
+[PASS] *I6 No confirmed sale is lost or reassigned
+          0 confirmed sales missing from /status; 0 tickets reassigned to a different number
+[INFO] *I7 Buyers left in doubt
+          0 request ids ended with no definite answer; 0 of them actually hold a ticket they do not know about
+
+  * not required by the brief -- see buyer/invariants.py

@@ -1,0 +1,106 @@
+{
+  "label": "three-instances",
+  "args": {
+    "url": "http://127.0.0.1:8001,http://127.0.0.1:8002,http://127.0.0.1:8003",
+    "requests": 9000,
+    "concurrency": 600,
+    "tickets": 100,
+    "users": 2000,
+    "duplicate_pct": 0.25,
+    "seed": 1,
+    "timeout": 30.0,
+    "shard": 0,
+    "shards": 1,
+    "label": "three-instances",
+    "out": "C:\\Users\\lawra\\Downloads\\personal_projects\\DYLA_THP\\runs\\07-three-instances",
+    "no_reset": false,
+    "journal_only": false,
+    "procs": 8
+  },
+  "summary": {
+    "requests": 9000,
+    "wall_s": 36.958,
+    "rps": 243.5,
+    "latency_ms": {
+      "p50": 1080.47,
+      "p95": 6344.2,
+      "p99": 7442.79,
+      "max": 8797.37
+    },
+    "outcomes": {
+      "sold_out": 6632,
+      "unknown": 2245,
+      "ok": 123
+    }
+  },
+  "server_metrics": {
+    "mode": "safe",
+    "instance": "inst1",
+    "pool_size": 32,
+    "pool_idle": 32,
+    "pool_max": 32,
+    "samples": 2204,
+    "pool_wait_ms_p50": 0.026,
+    "pool_wait_ms_p99": 892.768,
+    "db_ms_p50": 82.348,
+    "db_ms_p99": 320.318
+  },
+  "checks": [
+    {
+      "key": "I1",
+      "title": "Never oversell",
+      "passed": true,
+      "detail": "100 sold against capacity 100",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I2",
+      "title": "Never issue a ticket number twice",
+      "passed": true,
+      "detail": "0 duplicated in /status; 0 handed to multiple request ids over the wire",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I3",
+      "title": "Duplicate request id buys once",
+      "passed": true,
+      "detail": "20 request ids were replayed and answered more than once; 0 hold multiple tickets in /status; 0 were told different numbers on different attempts",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I4",
+      "title": "/status count matches issued tickets",
+      "passed": true,
+      "detail": "/status reports sold=100, list contains 100",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I5",
+      "title": "No phantom tickets",
+      "passed": true,
+      "detail": "0 tickets held by request ids never sent",
+      "asked_for": false,
+      "advisory": false
+    },
+    {
+      "key": "I6",
+      "title": "No confirmed sale is lost or reassigned",
+      "passed": true,
+      "detail": "0 confirmed sales missing from /status; 0 tickets reassigned to a different number",
+      "asked_for": false,
+      "advisory": false
+    },
+    {
+      "key": "I7",
+      "title": "Buyers left in doubt",
+      "passed": true,
+      "detail": "1352 request ids ended with no definite answer; 0 of them actually hold a ticket they do not know about",
+      "asked_for": false,
+      "advisory": true
+    }
+  ]
+}

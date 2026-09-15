@@ -1,0 +1,18 @@
+[
+  {
+    "t": 0.0,
+    "event": "load starts"
+  },
+  {
+    "t": 8.01,
+    "event": "datastore SLOW (+120ms per chunk)"
+  },
+  {
+    "t": 18.01,
+    "event": "datastore normal again"
+  },
+  {
+    "t": 54.35,
+    "event": "load finished"
+  }
+]

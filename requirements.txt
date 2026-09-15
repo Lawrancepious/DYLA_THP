@@ -1,0 +1,14 @@
+# Seller
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+asyncpg==0.30.0
+
+# Buyer
+httpx==0.28.1
+pydantic==2.10.4
+
+# Measurement and tests. Listed because the README asks a grader to run
+# `pytest tests/` and the bottleneck evidence depends on psutil -- omitting
+# them meant a clean checkout failed on the README's own instructions.
+pytest==8.3.4
+psutil==6.1.1

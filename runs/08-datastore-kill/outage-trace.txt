@@ -1,0 +1,17 @@
+  t+s      ok  sold_out  unknown                        
+-------------------------------------------------------
+    0    2277         0      572  recovering            
+   10       0         0      484  datastore unreachable 
+   20       0         0     1050  datastore unreachable 
+   30       0         0     1012  datastore unreachable 
+   40       7         0      757  recovering            
+   50     223         0      580  recovering            
+   60    2957         0       20  recovering            
+   70    3857         0        0                        
+   80    3698         0        0                        
+   90    3953         0        0                        
+  100    4001         0        0                        
+  110    1990      2443        0                        
+  120    1150      2961        0                        
+  130    1218      3018        0                        
+  140     487      1285        0                        

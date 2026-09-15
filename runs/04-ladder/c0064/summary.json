@@ -1,0 +1,104 @@
+{
+  "label": "ladder-c64",
+  "args": {
+    "url": "http://127.0.0.1:8000",
+    "requests": 4000,
+    "concurrency": 64,
+    "tickets": 4000,
+    "users": 2000,
+    "duplicate_pct": 0.1,
+    "seed": 1,
+    "timeout": 30.0,
+    "shard": 0,
+    "shards": 1,
+    "label": "ladder-c64",
+    "out": "C:\\Users\\lawra\\Downloads\\personal_projects\\DYLA_THP\\runs\\04-ladder\\c0064",
+    "no_reset": false,
+    "journal_only": false,
+    "procs": 8
+  },
+  "summary": {
+    "requests": 4000,
+    "wall_s": 9.478,
+    "rps": 422.0,
+    "latency_ms": {
+      "p50": 114.5,
+      "p95": 171.67,
+      "p99": 209.57,
+      "max": 268.04
+    },
+    "outcomes": {
+      "ok": 4000
+    }
+  },
+  "server_metrics": {
+    "mode": "safe",
+    "instance": "ladder",
+    "pool_size": 32,
+    "pool_idle": 32,
+    "pool_max": 32,
+    "samples": 4001,
+    "pool_wait_ms_p50": 29.517,
+    "pool_wait_ms_p99": 99.739,
+    "db_ms_p50": 38.677,
+    "db_ms_p99": 81.067
+  },
+  "checks": [
+    {
+      "key": "I1",
+      "title": "Never oversell",
+      "passed": true,
+      "detail": "3600 sold against capacity 4000",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I2",
+      "title": "Never issue a ticket number twice",
+      "passed": true,
+      "detail": "0 duplicated in /status; 0 handed to multiple request ids over the wire",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I3",
+      "title": "Duplicate request id buys once",
+      "passed": true,
+      "detail": "373 request ids were replayed and answered more than once; 0 hold multiple tickets in /status; 0 were told different numbers on different attempts",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I4",
+      "title": "/status count matches issued tickets",
+      "passed": true,
+      "detail": "/status reports sold=3600, list contains 3600",
+      "asked_for": true,
+      "advisory": false
+    },
+    {
+      "key": "I5",
+      "title": "No phantom tickets",
+      "passed": true,
+      "detail": "0 tickets held by request ids never sent",
+      "asked_for": false,
+      "advisory": false
+    },
+    {
+      "key": "I6",
+      "title": "No confirmed sale is lost or reassigned",
+      "passed": true,
+      "detail": "0 confirmed sales missing from /status; 0 tickets reassigned to a different number",
+      "asked_for": false,
+      "advisory": false
+    },
+    {
+      "key": "I7",
+      "title": "Buyers left in doubt",
+      "passed": true,
+      "detail": "0 request ids ended with no definite answer; 0 of them actually hold a ticket they do not know about",
+      "asked_for": false,
+      "advisory": true
+    }
+  ]
+}

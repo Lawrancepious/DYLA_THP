@@ -1,0 +1,23 @@
+
+=== ladder-c32 ================================================
+4000 requests in 11.844s   337.7 req/s
+latency ms   p50    79.66   p95   102.01   p99   129.15   max   321.01
+outcomes     ok=4000
+server       pool 30/32  pool-wait p99 0.464ms  db p99 67.57ms
+
+[PASS]  I1 Never oversell
+          3600 sold against capacity 4000
+[PASS]  I2 Never issue a ticket number twice
+          0 duplicated in /status; 0 handed to multiple request ids over the wire
+[PASS]  I3 Duplicate request id buys once
+          373 request ids were replayed and answered more than once; 0 hold multiple tickets in /status; 0 were told different numbers on different attempts
+[PASS]  I4 /status count matches issued tickets
+          /status reports sold=3600, list contains 3600
+[PASS] *I5 No phantom tickets
+          0 tickets held by request ids never sent
+[PASS] *I6 No confirmed sale is lost or reassigned
+          0 confirmed sales missing from /status; 0 tickets reassigned to a different number
+[INFO] *I7 Buyers left in doubt
+          0 request ids ended with no definite answer; 0 of them actually hold a ticket they do not know about
+
+  * not required by the brief -- see buyer/invariants.py
